@@ -4,11 +4,11 @@ Trabajo 1 de la materia Almacenamiento y Recuperacion de Información - Universi
 Se plantea determinar tendencias en el comportamiento del calentamiento global enfocado al Valle de Aburra; hecho por el cual se implementan las bases de datos del SIATA y Gov. A continuación, se describen las etapas para el desarrollo según los elementos del trabajo.
 
 ## Fuentes de datos:
-*[SIATA - Monóxido de Carbono (CO)](https://datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_co.json)
-*[SIATA - Óxido Nítrico (NO)](datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_no.json)
-*[SIATA - Dióxido de Azufre (SO2)](datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_so2.json)
-*[Dióxido de Nitrógeno (NO2)](datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_so2.json)
-*[Datos Gov CO](https://www.datos.gov.co/resource/evm3-92yw.json)
+•[SIATA - Monóxido de Carbono (CO)](https://datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_co.json)
+•[SIATA - Óxido Nítrico (NO)](datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_no.json)
+•[SIATA - Dióxido de Azufre (SO2)](datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_so2.json)
+•[Dióxido de Nitrógeno (NO2)](datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_so2.json)
+•[Datos Gov CO](https://www.datos.gov.co/resource/evm3-92yw.json)
 
 
 ## Ingesta de datos:
@@ -34,9 +34,9 @@ AWS Glue: Para la realización de ETLs desde los Endpoints origen de los datos h
 6.	Spark/Jupyter: Creación de Notebook para explorar los datos desde las diversas fuentes y generar insigths.
 
 
-### st1800-241-trabajo1
+### Estructura del Repositorio
 ```
-airflow-data-pipeline
+st1800-241-trabajo1
 │   README.md                           # Descripcion
 |   diagrama1.png                       # Diagrama de Arquitectura
 │   
