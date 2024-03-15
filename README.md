@@ -5,9 +5,13 @@ Se plantea determinar tendencias en el comportamiento del calentamiento global e
 
 ## Fuentes de datos:
 •[SIATA - Monóxido de Carbono (CO)](https://datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_co.json)
+
 •[SIATA - Óxido Nítrico (NO)](datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_no.json)
+
 •[SIATA - Dióxido de Azufre (SO2)](datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_so2.json)
+
 •[Dióxido de Nitrógeno (NO2)](datosabiertos.metropol.gov.co/sites/default/files/uploaded_resources/Datos_SIATA_Aire_so2.json)
+
 •[Datos Gov CO](https://www.datos.gov.co/resource/evm3-92yw.json)
 
 
