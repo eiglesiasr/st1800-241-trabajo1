@@ -24,19 +24,21 @@ La ingesta de los datos se realiza a través de las APIs por medio de Python don
 
 AWS Glue: Para la realización de ETLs desde los Endpoints origen de los datos hacia S3 en zona RAW. Adicionalmente para llevar de zona RAW a zona Trusted la información almacenándola en formato parquet para que el tamaño de la información sea óptimo
 1.	S3: almacenando en un Bucket la información en la zona RAW y así mismo hacia la zona TRUSTED ya con la información lista para utilizarse por los otros sistemas
+
 •	Raw: s3://eiglesiasrtrabajo1/raw/
 
 •	Trusted: s3://eiglesiasrtrabajo1/trusted/
 
-3.	AWS Crawler: Identificación de Tablas y campos en la zona RAW
 
-4.	HDFS Hive: consultas sobre tablas externas creadas en HIVE para ser consultadas desde HIVE y desde el notebook con spark sql.
+2.	AWS Crawler: Identificación de Tablas y campos en la zona RAW
 
-5.	Redshift Spectrum: creación de tablas creadas en Redshift Spectrum apuntando a zona TRUSTED las cuales pueden ser consultadas desde HIVE y desde el notebook con park sql.
+3.	HDFS Hive: consultas sobre tablas externas creadas en HIVE para ser consultadas desde HIVE y desde el notebook con spark sql.
 
-6.	Redshift: Almacenamiento en base de datos relacional para fines de BI, actualmente ser hará una catalogación adicional para exponerla también desde S3 y ser utilizada desde spark sql.
+4.	Redshift Spectrum: creación de tablas creadas en Redshift Spectrum apuntando a zona TRUSTED las cuales pueden ser consultadas desde HIVE y desde el notebook con park sql.
 
-7.	Spark/Jupyter: Creación de Notebook para explorar los datos desde las diversas fuentes y generar insigths.
+5.	Redshift: Almacenamiento en base de datos relacional para fines de BI, actualmente ser hará una catalogación adicional para exponerla también desde S3 y ser utilizada desde spark sql.
+
+6.	Spark/Jupyter: Creación de Notebook para explorar los datos desde las diversas fuentes y generar insigths.
 
 
 ### Estructura del Repositorio
